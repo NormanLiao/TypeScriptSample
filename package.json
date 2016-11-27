@@ -1,0 +1,42 @@
+{
+  "name": "webgl_sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.13.0",
+    "gulp": "^3.9.1",
+    "gulp-browserify": "^0.5.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-if": "^2.0.1",
+    "gulp-jsdoc": "^0.1.5",
+    "gulp-qunit": "^1.4.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-typedoc": "^2.0.0",
+    "gulp-typescript": "^2.13.6",
+    "gulp-uglify": "^1.5.4",
+    "merge-stream": "^1.0.1",
+    "ts-loader": "^0.8.2",
+    "typedoc": "^0.4.4",
+    "typescript": "^1.8.10",
+    "webpack": "^1.13.2",
+    "webpack-stream": "^3.2.0",
+    "yargs": "^5.0.0"
+  },
+  "window": {
+    "show": true,
+    "position": "center",
+    "width": 800,
+    "height": 600
+  },
+  "dependencies": {
+    "gulp-jquery": "^1.1.2",
+    "three.js": "^0.77.1"
+  }
+}
