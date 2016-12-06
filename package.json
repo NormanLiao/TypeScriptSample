@@ -8,12 +8,13 @@
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "browser-sync": "^2.13.0",
     "gulp": "^3.9.1",
     "gulp-browserify": "^0.5.1",
     "gulp-concat": "^2.6.0",
     "gulp-if": "^2.0.1",
+    "gulp-jquery": "^1.1.2",
     "gulp-jsdoc": "^0.1.5",
     "gulp-qunit": "^1.4.0",
     "gulp-rename": "^1.2.2",
@@ -22,6 +23,7 @@
     "gulp-typescript": "^2.13.6",
     "gulp-uglify": "^1.5.4",
     "merge-stream": "^1.0.1",
+    "three.js": "^0.77.1",
     "ts-loader": "^0.8.2",
     "typedoc": "^0.4.4",
     "typescript": "^1.8.10",
@@ -34,9 +36,5 @@
     "position": "center",
     "width": 800,
     "height": 600
-  },
-  "dependencies": {
-    "gulp-jquery": "^1.1.2",
-    "three.js": "^0.77.1"
   }
 }

@@ -18,9 +18,9 @@ export class View {
      * @param target  no parameter input
      * @returns       no return value
      */
-    initScene(){
-        this.sceneManager.initScene();
-        this.render();
+    public InitScene() {
+        this.sceneManager.LnitScene();
+        this.Render();
 
         document.body.appendChild(this.renderer.domElement);
     }
@@ -30,15 +30,13 @@ export class View {
      * @param target  no parameter input
      * @returns       no return value
      */
-    render()
-    {
+    private Render() {
         this.renderer.setSize(window.innerWidth, window.innerHeight);
         this.renderer.render(this.sceneManager.scene, this.sceneManager.camera);
     }
- 
 }
 
 window.onload = () => {
     let view = new View();
-    view.initScene();
+    view.InitScene();
 };
